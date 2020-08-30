@@ -1,0 +1,283 @@
+/*body {
+    color: #1662a1;
+    margin: 70px;
+}*/
+.header {
+    line-height: 7px;
+}
+
+.header p {
+    font-weight: 500;
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.header h1 {
+    margin-bottom: -5px;
+    font-size: 30px;
+    color: #1662a1;
+}
+
+.container1 {
+    background-color: #1662a1;
+    color: white;
+    display: inline-block;
+    width: 250px;
+    height: 17px;
+    font-size: 13px;
+}
+
+.profile {
+    font-size: 11px;
+}
+
+
+.hero {
+    font-weight: bold;
+    font-size: 11px;
+    color: #1662a1;
+}
+
+.label {
+    text-align: left;
+    line-height: 1px;
+    margin: 0 -27px;
+}
+
+.label1 {
+    text-align: right;
+    padding-right: 60px;
+}
+
+.hero h3 {
+    padding-bottom: 6px;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #6ba1ce;
+}
+
+input {
+    text-align: center;
+}
+
+.form-control1 {
+    margin: 0 -50px;
+    border: 1px solid #acb0b3;
+    width: 100px;
+}
+
+.form-control2 {
+    background-color: #acb0b350;
+}
+
+.hero .small {
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+}
+
+.tableblue {
+    background-color: #1662a1;
+    color: white;
+}
+
+.rowTable {
+    font-size: 12px;
+}
+
+table {
+    border: 2px solid #1662a1;
+}
+
+form p {
+    font-weight: bold;
+}
+
+footer h5 {
+    font-size: 12px;
+    color: #1662a1;
+    margin-bottom: -1px;
+}
+
+footer h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.totalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
+    margin: -15px 0 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.totalTitle {
+    width: 10%;
+}
+
+.total {
+    width: 8%;
+}
+
+.form-group {
+    background: #1662a1;
+    height: 22px;
+}
+
+.coment {
+    color: white;
+    font-size: 13px;
+    padding: 0 8px;
+}
+
+textarea {
+    margin: -7px 0;
+}
+
+.signature {
+    font-size: 12px;
+    margin: 95px 0 70px -40px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    color: #1662a1;
+    letter-spacing: 1px;
+}
+
+.pageRow {
+    width: 55%;
+}
+
+td,
+th {
+    font-size: 11px;
+}
+
+/* @media screen and (max-width:580px) {
+    .header {
+        line-height: 7px;
+    }
+    
+    .header p {
+        font-weight: 500;
+        font-size: 11px;
+        margin: 10px 0;
+    }
+    
+    .header h1 {
+        margin-bottom: -5px;
+        font-size: 30px;
+        color: #1662a1;
+    }
+    
+    .container1 {
+        background-color: #1662a1;
+        color: white;
+        display: inline-block;
+        width: 250px;
+        height: 17px;
+        font-size: 13px;
+    }
+    
+    .profile {
+        font-size: 11px;
+    }
+    
+    
+    .hero {
+        font-weight: bold;
+        font-size: 11px;
+        color: #1662a1;
+    }
+    
+    .label {
+        text-align: left;
+        line-height: 1px;
+        margin: 0 -27px;
+    }
+    
+    .label1 {
+        text-align: right;
+        padding-right: 60px;
+    }
+    
+    .hero h3 {
+        padding-bottom: 6px;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: #6ba1ce;
+    }
+    .form-control1 {
+        margin: 0 -50px;
+        border: 1px solid #acb0b3;
+        width: 100px;
+    }
+    .hero .small {
+        font-size: 9px;
+        font-weight: bold;
+        color: black;
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Tahoma";
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.subpage {
+    padding: 1cm;
+    border: 5px black solid;
+    height: 256mm;
+    outline: 2cm white solid;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
